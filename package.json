@@ -1,9 +1,13 @@
 {
   "name": "friend-finder-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Helps you find friends",
+  "main": "server.js",
+  "dependencies": {
+      "express": "^4.16.3"
+  },
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
