@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstarp/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesoem/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="jumbotron">
+            <h1 class="text-center"><span class="fa fa-fire"></span>Find Your Friends!</h1>
+            <hr>
+            <h2 class="text-center">Fill out the survey to match with new friends!</h2>
+            <br>
+
+            <div class="text-center">
+                <a href="/survey"><button class="btn btn-lg btn-primary"><span class="fa fa-list-alt"></span>Take
+                        Survey</button></a>
+                <a href="/home"><button class="btn btn-lg btn-primary">
+                        <span class="fa fa-list-alt"></span>Home</button></a>
+            </div>
+
+        </div>
+
+
+        <h2>Survey</h2>
+        <hr>
+        <form>
+            <div class="form-group">
+                <h4>Name</h4>
+                <input id="name" type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <h4>Link to Photo</h4>
+                <input id="photo" type="text" class="form-control" placeholder="Link to Photo">
+            </div>
+            <hr>
+
+            <div class="form-group">
+                <label for="question1">You are always ready for an adventure.</label>
+                <select class="form-control" id="question1">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question2">You would rather stay in your pajamas than see anybody.</label>
+                <select class="form-control" id="question2">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question3">You like to go swimming.</label>
+                <select class="form-control" id="question3">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question4">Sunshine depresses you.</label>
+                <select class="form-control" id="question4">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question5">One of your favorite TV shows is Friends.</label>
+                <select class="form-control" id="question5">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question6">You like Friday night happy hours more than a quiet Sunday morning.</label>
+                <select class="form-control" id="question6">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question7">You hate eating messy food.</label>
+                <select class="form-control" id="question7">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question8">You enjoy watching superhero movies.</label>
+                <select class="form-control" id="question8">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="question9">The though of food bores you.</label>
+                <select class="form-control" id="question9">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question10">Video games are for kids.</label>
+                <select class="form-control" id="question10">
+                    <option value="Select an Option"></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </form>
+        <div class="text-center">
+            <button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+        </div>
+
+        <!--Modal-->
+        <div id="friendFoundModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title">Meet Your New Friend!</h3>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="bestFriend"></h2>
+                        <img id="bestFriendPhoto" src="#">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friend Link</a> | <a
+                        href="https://github.com/wneek018/friend-finder-app">GitHub Repo</a></p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $("#submitBtn").on("click", function(event) {
+        event.preventDefault();
+
+        var valid = true;
+        if ($("#name").val() === "" || $("#photo".val() === "")) {
+            valid = false;
+        } else if ($("#question1").val() === "empty" ||
+        $("#question2").val() === "empty" ||
+        $("#question3").val() === "empty" ||
+        $("#question4").val() === "empty" ||
+        $("#question5").val() === "empty" ||
+        $("#question6").val() === "empty" ||
+        $("#question7").val() === "empty" ||
+        $("#question8").val() === "empty" ||
+        $("#question9").val() === "empty" ||
+        $("#question10").val() === "empty") {
+            valid = false;
+        }
+
+        if (valid) {
+            var newUser = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+                    $("#question1").val(),
+                    $("#question2").val(),
+                    $("#question3").val(),
+                    $("#question4").val(),
+                    $("#question5").val(),
+                    $("#question6").val(),
+                    $("#question7").val(),
+                    $("#question8").val(),
+                    $("#question9").val(),
+                    $("#question10").val()
+                ]
+            };
+
+            var currentURL = window.location.origin;
+
+            $.post(currentURL + "/api/friends", newUser, function(data) {
+                $("bestFriend").text(data.name);
+                $("#bestFriendPhoto").attr("src", data.photo);
+                $("#friendFoundModal").modal("toggle");
+            });
+        } else {
+            alert("Please complete the survey before submitting.");
+        }
+    });
+</script>

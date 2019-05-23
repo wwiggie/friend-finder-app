@@ -4,11 +4,6 @@ var path = require("path");
 // routing
 module.exports = function (app) {
 
-    // route that displays the home page
-    app.get("/", function (res, req) {
-        res.sendFile(path.join(__dirname, "../public/home.html"));
-    });
-
     // route that displays the survey page
     app.get("/survey", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/survey.html"));
@@ -19,6 +14,3 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
 };
-
-
-
